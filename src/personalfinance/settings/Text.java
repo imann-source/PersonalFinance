@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package personalfinance.settings;
 
 import java.util.HashMap;
 
-/**
- *
- * @author Asus
- */
+
 final public class Text {
     
     private static final HashMap<String, String> data = new HashMap();
@@ -57,6 +50,18 @@ final public class Text {
         data.put("NOVEMBER", "Ноябрь");
         data.put("DECEMBER", "Декабрь");
         
+        data.put("ERROR_TITLE_EMPTY", "Вы не ввели название!");
+        data.put("ERROR_IS_EXISTS", "Такой запись уже существует!");
+        data.put("ERROR_DATE_FORMAT", "Некорректный формат даты!");
+        data.put("ERROR_CODE_EMPTY", "Вы не указали код!");
+        data.put("ERROR_CURRENCY_EMPTY", "Вы не выбрали валюту!");
+        data.put("ERROR_ARTICLE_EMPTY", "Вы не выбрали статью!");
+        data.put("ERROR_ACCOUNT_EMPTY", "Вы не выбрали счёт!");
+        data.put("ERROR_RATE_INCORRECT", "Некорректное значение курса!");
+        data.put("ERROR_AMOUT_FORMAT", "Некорректный формат суммы!");
+        data.put("ERROR_NO_BASE_CURRENCY", "Необходима базовая валюта! Установите сначала этот параметр в другой валюте, потом он вычтется автоматически!");
+        
+       
         
     
     
